@@ -20,7 +20,7 @@ p{
 h1 {
     font-family: "Big Shoulders Display";
     font-weight: 700;
-    font-size: 40px;
+    font-size: 43px;
     color: hsl(0, 0%, 95%);
     margin: 20px 0 0 0;
     text-transform: uppercase;
@@ -39,7 +39,7 @@ img{
     width: 62px;
     height: auto;
 
-    margin: 8px 0 0 8px;
+    margin: 10px 0 0 15px;
 }
 
 @media (min-width: 375px) and (max-width: 1440px){
