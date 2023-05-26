@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(0, 0%, 95%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+}
+
+/* Sedans */
+#sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+/* SUVs */
+#SUVs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+/* Luxury */
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+}
