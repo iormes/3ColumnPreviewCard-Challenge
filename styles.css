@@ -4,6 +4,9 @@
 
 body{
     background: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
 }
 
 p{
@@ -11,7 +14,40 @@ p{
 }
 
 h1 {
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 40px;
     color: hsl(0, 0%, 95%);
+}
+
+button{
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    column-count: 3;
+    column-gap: 0px;
+
+
+
+    width: 920px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+section{
+    height: 100%;
+    width: 305px;
+    padding: 10px;
+    margin: 0;
 }
 
 /* Sedans */
@@ -19,12 +55,52 @@ h1 {
     background-color: hsl(31, 77%, 52%);
 }
 
+#sedans button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(31, 77%, 52%);
+}
+
+#sedans button:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+
+    border: 3px solid hsl(0, 0%, 95%);
+}
+
 /* SUVs */
 #SUVs{
     background-color: hsl(184, 100%, 22%);
+}
+
+#SUVs button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(184, 100%, 22%);
+}
+
+#SUVs button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+
+    border: 3px solid hsl(0, 0%, 95%);
 }
 
 /* Luxury */
 #luxury{
     background-color: hsl(179, 100%, 13%);
 }
+
+#luxury button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color:hsl(179, 100%, 13%);
+}
+
+#luxury button:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+
+    border: 3px solid hsl(0, 0%, 95%);
+}
+
