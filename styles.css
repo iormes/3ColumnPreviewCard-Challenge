@@ -22,7 +22,7 @@ h1 {
     font-weight: 700;
     font-size: 43px;
     color: hsl(0, 0%, 95%);
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
     text-transform: uppercase;
 }
 
@@ -38,8 +38,8 @@ button{
 img{
     width: 62px;
     height: auto;
-
-    margin: 10px 0 0 15px;
+    transform: translateX(-2px);
+    margin: 10px 0 0 0;
 }
 
 @media (min-width: 375px) and (max-width: 1440px){
