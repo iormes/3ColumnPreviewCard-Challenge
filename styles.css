@@ -14,7 +14,7 @@ p{
     margin-top: 28px;
     max-width: 210px;
 
-    line-height: 1.7;
+    line-height: 1.65;
 }
 
 h1 {
@@ -32,14 +32,14 @@ button{
     height: 50px;
 
     font-size: 17px;
-    margin-top: 68px;
+    margin-top: 65px;
 }
 
 img{
     width: 62px;
     height: auto;
 
-    margin: 8px 0 0 8px;
+    margin: 7px 0 0 6px;
 }
 
 @media (min-width: 375px) and (max-width: 1440px){
