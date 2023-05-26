@@ -20,9 +20,9 @@ p{
 h1 {
     font-family: "Big Shoulders Display";
     font-weight: 700;
-    font-size: 43px;
+    font-size: 40px;
     color: hsl(0, 0%, 95%);
-    margin: 25px 0 0 0;
+    margin: 28px 0 0 0;
     text-transform: uppercase;
 }
 
@@ -32,13 +32,13 @@ button{
     height: 50px;
 
     font-size: 17px;
-    margin-top: 80px;
+    margin-top: 75px;
 }
 
 img{
     width: 62px;
     height: auto;
-    transform: translateX(-2px);
+
     margin: 10px 0 0 0;
 }
 
