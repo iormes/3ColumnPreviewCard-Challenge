@@ -12,6 +12,7 @@ body{
 p{
     color: hsla(0, 0%, 100%, 0.75);
     margin-top: 40px;
+    max-width: 210px;
 }
 
 h1 {
@@ -48,7 +49,7 @@ button{
 
 section{
     height: 100%;
-    width: 305px;
+    width: 310px;
     padding: 40px;
 }
 
