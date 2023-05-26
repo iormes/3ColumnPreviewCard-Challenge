@@ -51,7 +51,7 @@ button{
 @media (min-width: 1440px){
    .container{
         position: absolute;
-        top: 25%;
+        top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
         
